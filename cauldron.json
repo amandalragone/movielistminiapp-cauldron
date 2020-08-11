@@ -21,7 +21,18 @@
             }
           ]
         }
-      ]
+      ],
+      "config": {
+          "containerGenerator": {
+              "containerVersion": "1.0.0",
+              "publishers": [
+                {
+                  "name": "git",
+                  "url": "git@github.com:amandalragone/movielistminiapp-container.git"
+                }
+              ]
+            }
+          }
     }
   ],
   "schemaVersion": "3.0.0"
