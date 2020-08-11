@@ -13,7 +13,7 @@
               "binary": null,
               "yarnlock": "96323be84ae946d553a3b30365852bedcc7dd277",
               "nativeDeps": [
-                "react-native",
+                "react-native@0.63.2",
                 "react-native-electrode-bridge@1.5.7",
                 "react-native-ernmovie-api@0.0.9",
                 "react-native-ernnavigation-api@0.0.3"
@@ -21,7 +21,7 @@
               "miniApps": {
                 "container": [
                   "movielistminiapp@0.0.4",
-                  "moviedetailsminiapp@0.0.3"
+                  "https://github.com/electrode-io/MovieDetailsMiniApp#0.0.9"
                 ],
                 "codePush": []
               },
@@ -30,7 +30,17 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.1"
+              "containerVersion": "1.0.1",
+              "publishers": [
+                {
+                  "name": "git",
+                  "url": "git@github.com:user/myweatherapp-android-container.git"
+                },
+                {
+                  "name": "maven",
+                  "url": "http://user.nexus.repo.com:8081/nexus/content/repositories"
+                }
+              ],
             }
           }
         }
