@@ -30,24 +30,10 @@
               }
             }
           ],
-          "config": {
-            "containerGenerator": {
-              "containerVersion": "1.0.1",
-              "publishers": [
-                {
-                  "name": "git",
-                  "url": "git@github.com:user/myweatherapp-ios-container.git"
-                },
-                {
-                  "name": "maven",
-                  "url": "http://user.nexus.repo.com:8081/nexus/content/repositories"
-                }
-              ]
-            }
-          }
+          "containerVersion": "1.0.1"
         }
       ]
     }
   ],
-  "schemaVersion": "2.0.0"
+  "schemaVersion": "3.0.0"
 }

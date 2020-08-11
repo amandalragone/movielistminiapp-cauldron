@@ -1,0 +1,14 @@
+{
+  "containerGenerator": {
+    "pipeline": [
+      {
+        "name": "ern-container-publisher-git",
+        "url": "git@github.com:user/myweatherapp-ios-container.git"
+      },
+      {
+        "name": "ern-container-publisher-maven",
+        "url": "http://user.nexus.repo.com:8081/nexus/content/repositories"
+      }
+    ]
+  }
+}
