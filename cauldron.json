@@ -34,7 +34,7 @@
               "publishers": [
                 {
                   "name": "git",
-                  "url": "git@github.com:user/myweatherapp-android-container.git"
+                  "url": "git@github.com:user/myweatherapp-ios-container.git"
                 },
                 {
                   "name": "maven",
