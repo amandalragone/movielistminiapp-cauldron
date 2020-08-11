@@ -4,6 +4,24 @@
       "name": "MovieListMiniApp",
       "platforms": [
         {
+          "name": "android",
+          "versions": [
+            {
+              "name": "1.0.0",
+              "binary": null,
+              "codePush": {},
+              "container": {
+                "jsApiImpls": [],
+                "miniApps": [],
+                "nativeDeps": []
+              },
+              "isReleased": false,
+              "nativeDeps": [],
+              "yarnLocks": {}
+            }
+          ]
+        },
+        {
           "name": "ios",
           "versions": [
             {
@@ -23,16 +41,16 @@
         }
       ],
       "config": {
-          "containerGenerator": {
-              "containerVersion": "1.0.0",
-              "publishers": [
-                {
-                  "name": "git",
-                  "url": "git@github.com:amandalragone/movielistminiapp-container.git"
-                }
-              ]
+        "containerGenerator": {
+          "containerVersion": "1.0.0",
+          "publishers": [
+            {
+              "name": "git",
+              "url": "git@github.com:amandalragone/movielistminiapp-container.git"
             }
-          }
+          ]
+        }
+      }
     }
   ],
   "schemaVersion": "3.0.0"
