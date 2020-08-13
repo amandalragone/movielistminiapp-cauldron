@@ -42,7 +42,7 @@
       ],
       "config": {
         "containerGenerator": {
-          "containerVersion": "1.0.0",
+          "containerVersion": "2.0.0",
           "publishers": [
             {
               "name": "git",
