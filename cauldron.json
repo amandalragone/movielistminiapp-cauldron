@@ -19,7 +19,18 @@
               "nativeDeps": [],
               "yarnLocks": {}
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+                "containerVersion": "1.0.0",
+                "publishers": [
+                  {
+                    "name": "git",
+                    "url": "git@github.com:amandalragone/movielistminiapp-android-container.git"
+                  }
+                ]
+              }
+          }
         },
         {
           "name": "ios",
@@ -37,20 +48,20 @@
               "nativeDeps": [],
               "yarnLocks": {}
             }
-          ]
-        }
-      ],
-      "config": {
-        "containerGenerator": {
-          "containerVersion": "7.0.0",
-          "publishers": [
-            {
-              "name": "git",
-              "url": "git@github.com:amandalragone/movielistminiapp-container.git"
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "7.0.0",
+              "publishers": [
+                {
+                  "name": "git",
+                  "url": "git@github.com:amandalragone/movielistminiapp-container.git"
+                }
+              ]
             }
-          ]
+          }
         }
-      }
+      ]
     }
   ],
   "schemaVersion": "3.0.0"
