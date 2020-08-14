@@ -27,10 +27,6 @@
                   {
                     "name": "git",
                     "url": "git@github.com:amandalragone/movielistminiapp-android-container.git"
-                  },
-                  {
-                  "name": "maven",
-                  "url": "http://amandalragone.nexus.repo.com:8081/nexus/content/repositories"
                   }
                 ]
               }
